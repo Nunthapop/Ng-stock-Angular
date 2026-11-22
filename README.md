@@ -46,4 +46,4 @@ Compiled output will be generated inside the `dist/chart/` directory.
 
 ## Project Background
 
-This repository was developed as part of a college project for the **App-Script** class (2025), showcasing practical Angular web page development based on Standalone Components and integrated with UI & chart libs.
+This repository was developed as part of a college project for the **App-Script** class (2024), showcasing practical Angular web page development based on Standalone Components and integrated with UI & chart libs.
