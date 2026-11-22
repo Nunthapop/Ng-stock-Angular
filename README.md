@@ -1,59 +1,49 @@
-# Chart
+# Ng Stock & Currency Dashboard
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.0.
+An Angular 19 web application for tracking stocks, interactive financial charting, currency conversion, and financial news.
 
-## Development server
+## Tech Stack
+- **Framework:** Angular 19 (Standalone Components, Zoneless Change Detection)
+- **UI & Styling:** PrimeNG 19, PrimeIcons, PrimeFlex
+- **Charting:** Syncfusion EJ2 Charts, Chart.js (`ng2-charts`)
+- **Package Manager:** Yarn
 
-To start a local development server, run:
+---
 
+## Quick Start
+
+### 1. Prerequisites
+- **Node.js**: v18.19+ or v20+
+- **Yarn**: `1.22+` (or npm)
+
+### 2. Install Dependencies
 ```bash
-ng serve
+yarn install
 ```
+*(If using npm, run `npm install`)*
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
+### 3. Start Development Server
 ```bash
-ng generate component component-name
+yarn start
+# or: npm start
 ```
+Open [http://localhost:4200](http://localhost:4200) in your browser. The app will automatically reload when source files are modified.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
+### 4. Build for Production
 ```bash
-ng generate --help
+yarn build
+# or: npm run build
 ```
+Compiled output will be generated inside the `dist/chart/` directory.
 
-## Building
+---
 
-To build the project run:
+## Features
+- **Interactive Stock Charts (`/app-chart`):** Candlestick and volume visualization via Syncfusion & Polygon.io API.
+- **Currency Exchange (`/app-wallet`):** Live currency conversion and exchange calculator.
+- **Stock News (`/app-stock-news`):** Financial headlines and market updates.
+- **Contact & Feedback (`/app-contact`):** Responsive inquiry form.
 
-```bash
-ng build
-```
+## Project Background
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+This repository was developed as part of a college project for the **App-Script** class (2025), showcasing practical Angular web page development based on Standalone Components and integrated with UI & chart libs.
