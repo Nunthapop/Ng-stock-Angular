@@ -1,14 +1,12 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
-import { RouterLink, RouterOutlet } from '@angular/router';
 import { MenuItem } from 'primeng/api';
 import { MenubarModule } from 'primeng/menubar';
 import { CommonModule } from '@angular/common';
-import { SearchComponent } from '../search/search.component';
 
 @Component({
   selector: 'app-nav',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, RouterLink, MenubarModule],
+  imports: [CommonModule, MenubarModule],
   templateUrl: './nav.component.html',
   styleUrl: './nav.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

@@ -16,7 +16,5 @@ import { CommonModule } from '@angular/common';
 
 })
 export class AppComponent {
-  
-
-
+  title = 'chart';
 }
